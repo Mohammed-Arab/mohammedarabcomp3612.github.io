@@ -1,0 +1,70 @@
+:root {
+  /* Primary: Cyan   */
+  --color-primary-1-050: #e0fcff;
+  --color-primary-1-100: #bef8fd;
+  --color-primary-1-200: #87eaf2;
+  --color-primary-1-300: #54d1db;
+  --color-primary-1-400: #38bec9;
+  --color-primary-1-500: #2cb1bc;
+  --color-primary-1-600: #14919b;
+  --color-primary-1-700: #0e7c86;
+  --color-primary-1-800: #0a6c74;
+  --color-primary-1-900: #044e54;
+
+  /* neutral: warm grey */
+  --color-neutral-050: #faf9f7;
+  --color-neutral-100: #e8e6e1;
+  --color-neutral-200: #d3cec4;
+  --color-neutral-300: #b8b2a7;
+  --color-neutral-400: #a39e93;
+  --color-neutral-500: #857f72;
+  --color-neutral-600: #625d52;
+  --color-neutral-700: #504a40;
+  --color-neutral-800: #423d33;
+  --color-neutral-900: #27241d;
+
+  /* Supporting: Blue, Red, yellow, teal  */
+  --color-support-1-050: #dceefb;
+  --color-support-1-100: #b6e0fe;
+  --color-support-1-200: #84c5f4;
+  --color-support-1-300: #62b0e8;
+  --color-support-1-400: #4098d7;
+  --color-support-1-500: #2680c2;
+  --color-support-1-600: #186faf;
+  --color-support-1-700: #0f609b;
+  --color-support-1-800: #0a558c;
+  --color-support-1-900: #003e6b;
+
+  --color-support-2-050: #ffeeee;
+  --color-support-2-100: #facdcd;
+  --color-support-2-200: #f29b9b;
+  --color-support-2-300: #e66a6a;
+  --color-support-2-400: #d64545;
+  --color-support-2-500: #ba2525;
+  --color-support-2-600: #a61b1b;
+  --color-support-2-700: #911111;
+  --color-support-2-800: #780a0a;
+  --color-support-2-900: #610404;
+
+  --color-support-3-050: #fffaeb;
+  --color-support-3-100: #fcefc7;
+  --color-support-3-200: #f8e3a3;
+  --color-support-3-300: #f9da8b;
+  --color-support-3-400: #f7d070;
+  --color-support-3-500: #e9b949;
+  --color-support-3-600: #c99a2e;
+  --color-support-3-700: #a27c1a;
+  --color-support-3-800: #7c5e10;
+  --color-support-3-900: #513c06;
+
+  --color-support-4-050: #effcf6;
+  --color-support-4-100: #c6f7e2;
+  --color-support-4-200: #8eedc7;
+  --color-support-4-300: #65d6ad;
+  --color-support-4-400: #3ebd93;
+  --color-support-4-500: #27ab83;
+  --color-support-4-600: #199473;
+  --color-support-4-700: #147d64;
+  --color-support-4-800: #0c6b58;
+  --color-support-4-900: #014d40;
+}

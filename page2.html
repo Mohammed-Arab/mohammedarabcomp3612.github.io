@@ -1,0 +1,162 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="art.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <h1>Advanced Art Work Search</h1>
+      </div>
+      <form
+        method="POST"
+        action="http://www.randyconnolly.com/tests/process.php"
+      >
+        <div class="container">
+          <label for="search"></label>
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder="search"
+            class="search-style remove-border"
+          />
+
+          <label for="Subject">Subject:</label>
+
+          <input type="radio" id="option" name="filter" value="1" />
+          <label for="option">History</label>
+
+          <input type="radio" id="person" name="filter" value="2" />
+          <label for="person">Person</label>
+
+          <input type="radio" id="Landscape" name="filter" value="3" />
+          <label for="Landscape">Landscape</label>
+
+          <label for="Neo-Classicim"></label>
+          <select
+            id="Neo-Classicim"
+            name="Neo-Classicim"
+            class="select-style remove-border"
+          >
+            <option value="0">Neo-Classicim</option>
+            <option value="archive">Baroque</option>
+            <option value="edit">Renaissance</option>
+            <option value="delete">Realism</option>
+          </select>
+        </div>
+        <div class="table-style">
+          <div class="painting-div">
+            <h2>Paintings</h2>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th></th>
+                <th class="title-padding">Title</th>
+                <th>Artist</th>
+                <th>Year</th>
+                <th class="genre-padding">Genre</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" name="index[0]" value="10" /></td>
+                <td><img class="img-table-row" src="1.jpg" /></td>
+                <td class="title">Portrait Alda Christina Assink</td>
+                <td>Kruseman, Jan</td>
+                <td>1833</td>
+                <td class="genre-padding">Realism</td>
+                <td>
+                  <button type="button" class="edit remove-border">
+                    <img src="edit.png" />
+                  </button>
+                  <button type="button">
+                    <img src="archive.png" />
+                  </button>
+                  <button type="button"><img src="delete.png" /></button>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="index[1]" value="20" /></td>
+                <td><img class="img-table-row" src="2.jpg" /></td>
+                <td class="title">
+                  Portrait of William ll. King of the Netherlands
+                </td>
+                <td>Schwartze, Theresa</td>
+                <td>1885</td>
+                <td class="genre-padding">Realism</td>
+                <td>
+                  <button type="button" class="edit remove-border">
+                    <img src="edit.png" />
+                  </button>
+                  <button type="button">
+                    <img src="archive.png" />
+                  </button>
+                  <button type="button"><img src="delete.png" /></button>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="index[2]" value="30" /></td>
+                <td><img class="img-table-row" src="3.jpg" /></td>
+                <td class="title">Three girls from the Amsterdam Orphanage</td>
+                <td>Rumsted, Jacob van</td>
+                <td>1870</td>
+                <td class="genre-padding">Dutch Golden Age</td>
+                <td>
+                  <button type="button" class="edit remove-border">
+                    <img src="edit.png" />
+                  </button>
+                  <button type="button">
+                    <img src="archive.png" />
+                  </button>
+                  <button type="button"><img src="delete.png" /></button>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="index[3]" value="40" /></td>
+                <td><img class="img-table-row" src="4.jpg" /></td>
+                <td class="title">The Windmill at Wilk by Dunstock</td>
+                <td>Kruseman, Jan</td>
+                <td>1833</td>
+                <td class="genre-padding">Realism</td>
+                <td>
+                  <button type="button" class="edit remove-border">
+                    <img src="edit.png" />
+                  </button>
+                  <button type="button">
+                    <img src="archive.png" />
+                  </button>
+                  <button type="button"><img src="images/delete.png" /></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="footer">
+          <label for="Actions"></label>
+          <select
+            id="Actions"
+            name="Actions"
+            class="select-style remove-border"
+          >
+            <option value="0">Select Action</option>
+            <option value="archive">Archive</option>
+            <option value="edit">Edit</option>
+            <option value="delete">Delete</option>
+            <option value="collection">Collection</option>
+          </select>
+          <input
+            type="submit"
+            value="Apply To All"
+            class="submit-style remove-border"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

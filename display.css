@@ -1,0 +1,135 @@
+/* display.css */
+
+/* Global styles */
+body {
+  background-color: lightgray; /* Background color for the entire page */
+  width: 910px; /* Width of the page container */
+  padding: 1%; /* Padding around the page content */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Font family for text */
+  font-size: 18px; /* Default font size */
+  font-weight: 300; /* Default font weight */
+}
+
+div.container {
+  box-shadow: 1px 1px 10px 0.5px #0000003b;
+}
+
+strong,
+.bold-text {
+  font-weight: 800; /* Font weight for strong and .bold-text elements */
+}
+
+h1 {
+  text-align: center; /* Center-align h1 text */
+  font-size: 36px; /* Font size for h1 */
+  font-weight: 600; /* Font weight for h1 */
+}
+
+h2.conf {
+  margin-left: 30px; /* Left margin for Learn in confidence */
+  margin-bottom: 0; /* Remove bottom margin for Learn in confidence */
+  padding-top: 20px; /* Top padding for Learn in confidence */
+  font-size: 36px; /* Font size for Learn in confidence */
+  font-weight: 400; /* Font weight for Learn in confidence */
+}
+
+p {
+  padding: 12px 0; /* Vertical padding for paragraphs */
+  margin: 0; /* Remove default margins for paragraphs */
+}
+
+p.conf {
+  margin-left: 30px;
+  /* Left margin for All our marking plans come with the same set of awar-wining features: */
+}
+
+p.view {
+  background-color: #3a6ba5; /* Background color for View Form  */
+  margin-top: 0px; /* Remove top margin for View Form  */
+  border-top-width: 20px;
+  padding-top: 15px; /* Top padding for View Form  */
+  border-bottom-width: 20px;
+  padding-bottom: 15px; /* Bottom padding for View Form  */
+  margin-bottom: 0px; /* Remove bottom margin forView Form  */
+  color: white; /* Text color for View Form  */
+  font-weight: 400; /* Font weight for View Form */
+  border-radius: 5px; /* Border radius to make the background not sharp */
+}
+
+div.bottom {
+  height: 280px; /* Height for confidence div */
+}
+
+.column {
+  display: inline-block; /* Display columns as inline-block */
+  width: 300px; /* Width for columns */
+  text-align: center; /* Center-align column content */
+  background-color: white; /* Background color for columns */
+}
+
+.different-col {
+  background-color: #2f4f4f; /* Background color for second col */
+  color: white; /* white text for the second col */
+}
+
+p.price span {
+  padding: 15px 0; /* Vertical padding for .price span */
+  font-size: 36px; /* Make the font of the price bigger */
+  font-weight: 800; /* Make the font of price bold */
+}
+
+.price1 {
+  background-color: #5bb189; /* Green Background color for $10 */
+}
+
+.price2 {
+  background-color: #4b0082; /* Purple Background color for $25 */
+}
+
+.price3 {
+  background-color: #ec632a; /* Orange Background color for $50 */
+}
+
+.plan {
+  font-size: 24px; /* Font size for the plan type */
+  font-weight: 600; /* Font weight for the plan type */
+}
+
+ul {
+  list-style-type: none; /* Remove list bullets */
+  padding: 0; /* Remove padding for ul */
+}
+
+li.view {
+  padding: 0; /* Remove padding for View Form */
+  margin: 40px 15px 30px; /* Margin for View Form*/
+}
+.container li:nth-child(odd) {
+  background-color: rgba(47, 59, 64, 0.35);
+  /* Darken the background color for odd li elements */
+}
+
+/* This CSS rule targets all the <li> elements within the
+    that have the class "exclude-nth-child" and sets the same background image to all of them*/
+ul.exclude-nth-child li {
+  background-size: 24px; /* Background size for confidence div */
+  background-repeat: no-repeat;
+  background-image: url("checkmark.svg");
+  margin-left: 70px;
+  font-weight: 400;
+  padding-left: 30px;
+  background-position: left center;
+  vertical-align: middle;
+  background-color: transparent;
+  /* Add any specific styles for this ul here */
+}
+ul.exclude-nth-child {
+  margin-top: 0px; /* Add margin-top to ul.exclude-nth-child */
+}
+a:hover {
+  color: white;
+  background-color: #437cbf; /* Background color on hover for links */
+}
+img {
+  width: 20px;
+}
